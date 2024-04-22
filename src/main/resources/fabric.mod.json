@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "mousebindfix",
+  "version": "1.0",
+  "name": "MouseBindFix",
+  "description": "Ported from Patcher",
+  "authors": [
+    "Sk1er, Tryfle"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "me.tryfle.mbf.Main"
+      }
+    ]
+  },
+  "mixins": [
+    "mbf.mixins.json"
+  ],
+  "depends": {
+    "fabric-language-kotlin": ">=1.10.17+kotlin.1.9.22",
+    "fabricloader": ">=0.14.19",
+    "minecraft": "1.8.9"
+  }
+}
